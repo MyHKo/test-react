@@ -9,6 +9,9 @@ function App() {
         <p>Some things about me</p>
         <div>Name: {user.name}</div>
         <div>Skills: {user.skills.css}</div>
+        <ul>
+            {user.hobbies.map((hobby) => <li key={hobby}>{hobby}</li>)}
+        </ul>
     </main>
   )
 }

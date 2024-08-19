@@ -3,5 +3,6 @@
   "skills": {
     "html": "4",
     "css": "5"
-  }
+  },
+  "hobbies": ["reading", "skating"]
 }
