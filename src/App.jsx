@@ -2,6 +2,7 @@ import './App.css'
 import user from './user.json'
 
 function App() {
+    const mail = "mailto:" + user.email
 
   return (
     <main className='app'>
@@ -12,6 +13,7 @@ function App() {
         <ul>
             {user.hobbies.map((hobby) => <li key={hobby}>{hobby}</li>)}
         </ul>
+        <a href={mail}>Mail me</a>
     </main>
   )
 }

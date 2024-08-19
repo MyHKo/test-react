@@ -4,5 +4,6 @@
     "html": "4",
     "css": "5"
   },
-  "hobbies": ["reading", "skating"]
+  "hobbies": ["reading", "skating"],
+  "email": "user@email.com"
 }
